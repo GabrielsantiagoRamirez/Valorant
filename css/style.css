@@ -1,0 +1,772 @@
+@media screen and (min-width: 491px) {
+    
+
+@font-face {
+    font-family: valorant;
+    src: url("../font/Valorant\ Font.ttf");
+}
+
+@font-face {
+    font-family: titulos;
+    src: url("../font/Gobold\ Bold.otf");
+}
+
+
+@font-face {
+    font-family: parrafo;
+    src: url("../font/Gobold\ Light.otf");
+}
+
+@font-face {
+    font-family: boton;
+    src: url("../font/coolvetica\ rg.otf");
+}
+
+@font-face {
+    font-family: final;
+    src: url("../font/couture-bld.otf");
+}
+
+
+#contenedor{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(17,17,17,255);
+    grid-template-columns: 1fr 5% 12% 1fr 1fr 10% 7% 1fr 1fr 15% 1fr 1fr;
+    display: grid;
+    position: fixed;
+    top: 0;
+}
+#logo{
+    background-image: url("../img/logovalorant.png");
+    height: 40px;
+    width: 100px;
+    background-size: cover;
+}
+
+#flecha{
+    background-image: url("../img/flecha.png");
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    margin-left: 10px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#izquierda{
+    height: 100px;
+    width: 160px;   
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    display: grid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#V{
+
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-image: url("../img/V.png");
+    width: 50px;
+    height: 50px;
+   background-size: cover;
+   margin-top: 30px;
+   margin-left: 10px;
+}
+
+
+
+#informacion{
+    color: white;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: valorant;
+}
+
+#multimedia{
+    color: white;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: valorant;
+}
+
+
+
+#noticias{
+    color: white;
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: valorant;
+}
+
+
+#tabladeposiciones{
+    color: white;
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: valorant;
+}
+
+
+#soporte{
+    color: white;
+    grid-column-start: 7;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: valorant;
+}
+
+
+
+
+#redessociales{
+    color: white;
+    grid-column-start: 8;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: valorant;
+}
+
+
+
+#esport{
+    color: white;
+    grid-column-start: 9;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: valorant;
+}
+
+
+
+#lupa{
+    background-image: url("../img/icons8-lupa-50.png");
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    grid-column-start: 10;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 10;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-top: 40px;
+    margin-left: auto;
+}
+
+#mundo{
+    background-image: url("../img/icons8-mundo-50.png");
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    grid-column-start: 11;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 11;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+
+#jugarahora{
+    color: rgb(0, 0, 0);
+    height: 30px;
+    background-size: cover;
+    grid-column-start: 12;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    background: rgb(255,32,32);
+    background: linear-gradient(90deg, rgba(255,32,32,1) 0%, rgba(255,146,146,1) 79%);
+    width: 120px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 4%;
+    font-family: valorant;
+}
+
+
+#video{
+    width:100%; 
+    height:40%;
+    margin-top: 100px;
+    color: white;
+}
+
+
+#contenedor2{
+    background-color: rgba(236,232,225,255);
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#minicontenedor{
+    width: 1300px;
+    height: 400px;
+    display: grid;
+}
+
+
+#titulo{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.ev{
+    margin-top: 40px;
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+}
+
+#boton{
+    background: rgba(255,70,85,255);
+    width: 300px;
+    text-align: center;
+    padding: 5%;
+}
+
+h1{
+    font-family: titulos;
+    font-size: 80px;
+    position: absolute;
+    margin-left: 30px;
+    color: rgba(255,70,85,255);
+}
+
+h3{
+    font-family: titulos;
+    font-size: 120px;
+    color: #ffffff;
+}
+
+
+h4{
+    font-family: titulos;
+    font-size: 120px;
+    color: #000000;
+}
+
+
+
+h2{
+    font-family: parrafo;
+}
+
+p{
+    font-family: parrafo;
+}
+
+#minicontenedor2{
+
+    width: 370px;
+    height: 300px;
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+#minicontenedor3{
+
+    width: 370px;
+    height: 300px;
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-top: 85px;
+}
+
+#minicontenedor4{
+
+    width: 370px;
+    height: 300px;
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-top: 85px;
+}
+
+
+#noticia1{
+    background-image: url("../img/noticia1.jpg");
+    width: 370px;
+    height: 200px;
+    background-size: cover;
+}
+
+#noticia2{
+    background-image: url("../img/noticia2.jpg");
+    width: 370px;
+    height: 200px;
+    background-size: cover;
+}
+
+
+#noticia3{
+    background-image: url("../img/noticia3.webp");
+    width: 370px;
+    height: 200px;
+    background-size: cover;
+}
+
+#fondogrande{
+    background-image: url("../img/fondo2.jpg");
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+#grande{
+    height: 300px;
+    width: 500px;
+    margin-left: 300px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+
+
+#contenedor3{
+    background-color: rgba(236,232,225,255);
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#minicontenedor5{
+    width: 1300px;
+    height: 800px;
+    
+}
+
+
+#contenedorsomos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+#video2{
+    width:50%; 
+    height:70%;
+}
+
+#desafia{
+    margin-top: 150px;
+    font-size: 30px;
+    margin-left: 100px; 
+}
+
+#texto{
+    margin-right: 170px;
+    font-size: 20px;
+    margin-left: 50px; 
+}
+
+#boton2{
+    margin-top: 30px;
+    text-align: center;
+    background-color: rgba(255,70,85,255);
+    padding: 5%;
+    font-size: 20px;
+    color: white;
+    font-family: parrafo;
+    width: 300px;
+    margin-left: 50px; 
+}
+
+#contenedor4{
+    background-color: rgba(255,70,85,255);
+    width: 100%;
+    height: 900px;
+    display: flex;
+  
+}
+
+
+
+#agentesimg{
+    background-image: url("../img/harbor.webp");
+    width: 900px;
+    height: 900px;
+    background-size: cover;
+}
+
+#contenedormini{
+    margin-right: 300px;
+    width: 550px;
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h5{
+    font-family: titulos;
+    font-size: 150px;
+    color: #ffffff;
+    text-align: start;
+}
+
+#creativo{
+    font-family: parrafo;
+    font-size: 30px;
+    margin-top: 75px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+#mas{
+    font-family: parrafo;
+    color: white;
+}
+
+#boton3{
+        margin-top: 30px;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        padding: 5%;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        font-family: parrafo;
+        width: 300px;
+        margin-left: auto; 
+        margin-top: 70px;
+    }
+
+    #contenedor5{
+        background-color: rgba(236,232,225,255);
+        width: 100%;
+        height: 900px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #fondo4{
+        background-image: url("../img/mapas.png");
+        width: 900px;
+        height: 900px;
+        background-size: cover;
+        margin-left: auto;
+    }
+
+    #contenedormini2{
+        margin-left: 550px;
+        width: 500px;
+        height: 1000px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 650px;
+        color: rgba(15,25,35,255);
+    }
+
+    #creativo2{
+        font-family: parrafo;
+        font-size: 30px;
+        margin-top: 75px;
+        margin-bottom: 30px;
+        color: rgba(15,25,35,255);
+    }
+    
+    #mas2{
+        font-family: parrafo;
+        color: rgba(15,25,35,255);
+    }
+
+
+    #agentes{
+        color: rgba(15,25,35,255);
+        font-family: titulos;
+        font-size: 100px;
+    }
+
+
+    #descarga{
+        display: block;
+        padding: 2%;
+        background-color: rgba(41,41,41,255);
+        text-align: center;
+        font-family: titulos;
+    }
+
+    input{
+        color: white;
+        background-color: rgba(41,41,41,255);
+        border: transparent;
+        font-family: boton;
+        font-size: 15px;
+    }   
+
+    #ultimo{
+        background-color: rgba(17,17,17,255);
+        width: 100%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #redessociales1{
+        background-image: url("../img/twitter.png");
+        width: 5px;
+        height: 5px;
+        background-color: #282828;
+        background-size: cover;
+        border-radius: 10px 10px 10px 10px;
+        padding: 5%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #redessociales2{
+        background-image: url("../img/youtube.png");
+        width: 30px;
+        height: 10px;
+        background-color: #282828;
+        background-size: cover;
+        border-radius: 10px 10px 10px 10px;
+        padding: 5%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #redessociales3{
+        background-image: url("../img/instagram.png");
+        width: 30px;
+        height: 10px;
+        background-color: #282828;
+        background-size: cover;
+        border-radius: 10px 10px 10px 10px;
+        padding: 5%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #redessociales4{
+        background-image: url("../img/facebook.png");
+        width: 30px;
+        height: 10px;
+        background-color: #282828;
+        background-size: cover;
+        border-radius: 10px 10px 10px 10px;
+        padding: 5%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #redessociales5{
+        background-image: url("../img/discord.png");
+        width: 30px;
+        height: 10px;
+        background-color: #282828;
+        background-size: cover;
+        border-radius: 10px 10px 10px 10px;
+        padding: 5%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #redes{
+        display: flex;
+        margin-top: -180PX;
+    }
+
+    #valorant{
+        background-image: url("../img/valorant.png");
+        height: 80px;
+        width: 100px;
+        background-size: cover;
+    }
+
+    #riotyvalorant{
+        display: flex;
+    }
+    #final{
+    color: rgba(60,60,60,255);
+    font-family: final;
+    }
+
+    #finalc{
+        display: block;
+        padding: 2%;
+        background-color: rgba(17,17,17,255);
+        text-align: center;
+        font-family: final;
+        margin-top: -280px;
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #descarga2{
+        display: block;
+        background-color: rgba(17,17,17,255);
+        text-align: center;
+        font-family: titulos;
+    }
+
+    #avisos{
+        background-image: url("../img/avisos.jpeg");
+        width: 350px;
+        height: 150px;
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    footer{
+        background-color: rgba(17,17,17,255);
+        height: 540px;
+    }
+
+    select{
+        background-color: rgba(17,17,17,255);
+        border: transparent;
+        font-size: 15px;
+    }
+    option{
+        padding: 5%;
+        font-family: final;
+        margin-top: 10px;
+        background-color: rgba(41,41,41,255);
+    }
+    
+
+
+    .contenedorvideo{
+
+    }
+
+    .textosuperpuesto{
+        position: absolute;
+        top: 350px;
+        left: 580px;
+        text-align: center;
+    }
+
+    .textosuperpuesto h1{
+        font-family: valorant;
+        font-size: 150px;
+        color: white;
+    }
+
+    .textosuperpuesto h2{
+        color: white;
+        margin-top: 230px;
+    }
+
+    .textosuperpuesto p{
+        color: white;
+        margin-left: 200px;
+        margin-bottom: 50px;
+    }
+
+    #boton4{
+        background: rgba(255,70,85,255);
+        width: 200px;
+        text-align: center;
+        padding: 4%;
+        margin-left: 250px;
+    }
+
+
+    #fondogrande2{
+        margin-top: 100px;
+        background-image: url("../img/fondo3.jpg_large");
+        width: 100%;
+        height: 750px;
+        background-size: cover;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #grande2{
+        height: 10px;
+        width: 500px;
+        margin-left: 300px;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+}
+
