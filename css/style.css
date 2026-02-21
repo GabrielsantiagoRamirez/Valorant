@@ -358,6 +358,106 @@ p{
     margin-top: 85px;
 }
 
+.about-project {
+    padding: 80px 8%;
+    background: #0f0f0f;
+    color: white;
+    text-align: center;
+}
+
+.about-container h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    max-width: 700px;
+    margin: 0 auto 50px auto;
+    opacity: 0.8;
+}
+
+.about-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.about-card {
+    background: #1c1c1c;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    transition: 0.3s ease;
+}
+
+.about-card:hover {
+    transform: translateY(-8px);
+    background: #222;
+}
+
+.about-card h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #ff4655;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.about-card ul {
+    list-style: none;
+}
+
+.about-card ul li {
+    margin-bottom: 8px;
+    opacity: 0.8;
+}
+
+.tech-badges {
+    margin-top: 30px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 5px;
+    background: #ff4655;
+    color: white;
+    font-size: 13px;
+    border-radius: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.github-container {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.btn-github {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #111;
+    border: 2px solid #ff4655;
+    color: #ff4655;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.btn-github:hover {
+    background: #ff4655;
+    color: white;
+}
+
+
+.disclaimer {
+    margin-top: 50px;
+    font-size: 13px;
+    opacity: 0.6;
+}
 
 #noticia1{
     background-image: url("../img/noticia1.jpg");
@@ -695,7 +795,7 @@ h5{
 
     footer{
         background-color: rgba(17,17,17,255);
-        height: 540px;
+        height: 550px;
     }
 
     select{
@@ -708,12 +808,6 @@ h5{
         font-family: final;
         margin-top: 10px;
         background-color: rgba(41,41,41,255);
-    }
-    
-
-
-    .contenedorvideo{
-
     }
 
     .textosuperpuesto{
